@@ -16,7 +16,7 @@ def add_todo():
 
 
 st.title("My To-Do App")
-st.subheader("This is my to-do wen App")
+st.subheader("This is my to-do Web App")
 st.write("This app is used to increase your <b>productivity</b>", unsafe_allow_html=True)
 
 for index, todo in enumerate(todos):
